@@ -19,10 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
         KyLog.d("hello,word");
         KyLog.e("hello,word");
-        //打印json
-        KyLog.json("{\"menu\":[\"泰式柠檬肉片\",\"鸡柳汉堡\",\"蒸桂鱼卷 \"],\"tag\":\"其他\"}");
         //打印统配符
         KyLog.d("%d个小蜜蜂", 4);
+
+        //打印json
+        KyLog.json("{\"person\":{\"name\":\"小蜜蜂\",\"sex\":\"男\",\"age\":\"18\"}}");
 
         Map<String,String> map = new HashMap<>();
         map.put("你好","我很好");
