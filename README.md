@@ -2,6 +2,8 @@
 
 这是一个Android上关于LogCat的工具库，它十分方便好用。
 
+具体说明可以看该[博客](http://blog.csdn.net/kyosky110/article/details/50470463)
+
 KyLog的特性:
 - 打印类名信息
 - 打印方法信息
