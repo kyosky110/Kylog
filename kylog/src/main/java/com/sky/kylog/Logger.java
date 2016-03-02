@@ -102,13 +102,14 @@ public class Logger implements Printer{
             }
             String[] lines = json.split(LINE_SEPARATOR);
             StringBuilder stringBuilder = new StringBuilder();
-            for (String line: lines){
-                stringBuilder.append("║ ").append(line).append(LINE_SEPARATOR);
-            }
             Log.d(fileName,TOP_BORDER);
             Log.d(fileName,HORIZONTAL_DOUBLE_LINE + " " + tag);
             Log.d(fileName,MIDDLE_BORDER);
-            Log.d(fileName,stringBuilder.toString());
+            for (String line: lines){
+                stringBuilder.append("║ ").append(line).append(LINE_SEPARATOR);
+                Log.d(fileName,stringBuilder.toString());
+                stringBuilder.delete(0, stringBuilder.length());
+            }
             Log.d(fileName,BOTTOM_BORDER);
         }catch (JSONException e){
             Log.e(tag,e.getMessage() );
