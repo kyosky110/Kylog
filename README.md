@@ -2,6 +2,8 @@
 
 这是一个Android上关于LogCat的工具库，它十分方便好用。
 
+具体说明可以看该[博客](http://blog.csdn.net/kyosky110/article/details/50470463)
+
 KyLog的特性:
 - 打印类名信息
 - 打印方法信息
@@ -75,21 +77,6 @@ KyLog.configAllowLog = false;
  thanks to [pengwei1024/LogUtils](https://github.com/pengwei1024/LogUtils) . it give me a great deal of help.
 
 
-###License
-```
-Copyright 2015 HuangNan
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
 
 
