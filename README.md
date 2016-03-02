@@ -14,7 +14,7 @@ KyLog的特性:
 ##Dependency
 ```
 dependencies {
-	compile 'com.kyosky110.kylog:kylog:1.0.0'
+	compile 'com.kyosky110.kylog:kylog:1.0.1'
 }
 ```
 
