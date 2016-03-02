@@ -20,7 +20,7 @@ android {
     }
 }
 
-version = "1.0.0"
+version = "1.0.1"
 def siteUrl = 'https://github.com/kyosky110/Kylog'
 def gitUrl = 'https://github.com/kyosky110/Kylog.git'
 group = "com.kyosky110.kylog"
